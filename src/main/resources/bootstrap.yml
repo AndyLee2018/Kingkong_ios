@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: Kingkong-ios
+  cloud:
+    nacos:
+      config:
+        server-addr: 1.116.90.93:8848
+        group: DEFAULT_GROUP
+        file-extension: yaml
+      discovery:
+        server-addr: 1.116.90.93:8848
+      profiles:
+        active: dev
